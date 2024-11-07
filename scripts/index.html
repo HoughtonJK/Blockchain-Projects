@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Voting App</title>
+</head>
+<body>
+    <h1>Voting App</h1>
+    
+    <div class="container">
+        <h1>Presidential Voting System</h1>
+  
+        <div id="candidateList">
+            <!-- Candidates will be dynamically added here -->
+        </div>
+        <div class = "remaining time">
+            <h1 id="time"></div>
+        <div id="message" class="message"></div>
+    </div>
+    
+    <h4>Connect to Metamask:</h4>
+    <div>
+        <button onclick="connectMetamask()">Connect Metamask</button>
+        <div id="connection"></div>
+    </div>
+
+    <div>
+        <button onclick="showAdminTools()">Admin Tools</button>
+        <div id="adminTools"></div>
+    </div>
+        
+    <img class="image" id="pic2" src="img/pic2.png" alt="picture2">
+    
+    <p>In today’s digital world, traditional voting systems face several challenges, including issues of trust, transparency, and security.  
+        This system provides a modern, decentralized approach to voting that enhances trust, security, and efficiency, making it ideal for elections in presidential voting.</p>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
+    
